@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FXTest_Example' do
+  pod 'FXTest', :path => '../'
+
+  target 'FXTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
