@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		210EC84984E55D7AC2DEF8D1 /* Pods-FXTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXTest_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FXTest_Tests/Pods-FXTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4126911E776E5B94C1D16C84 /* FXTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FXTest.podspec; path = ../FXTest.podspec; sourceTree = "<group>"; };
+		4126911E776E5B94C1D16C84 /* FXTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FXTest.podspec; path = ../FXTest.podspec; sourceTree = "<group>"; };
 		44FA715A7ECDD388ADD68031 /* Pods-FXTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXTest_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FXTest_Example/Pods-FXTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FXTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6E677F00AC906012A947598 /* Pods-FXTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXTest_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FXTest_Tests/Pods-FXTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CEDA7E2A653E2FE7A81E5F1A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CEDA7E2A653E2FE7A81E5F1A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D2BC8D689613C383F3E827CA /* Pods_FXTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FXTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5F380690278797F774B0EB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D5F380690278797F774B0EB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = guokaixuan;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = J3G7N7QH8L;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -524,9 +527,11 @@
 			baseConfigurationReference = 44FA715A7ECDD388ADD68031 /* Pods-FXTest_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J3G7N7QH8L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FXTest/FXTest-Prefix.pch";
 				INFOPLIST_FILE = "FXTest/FXTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -539,9 +544,11 @@
 			baseConfigurationReference = 67B016186963EF38A0E14A6C /* Pods-FXTest_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J3G7N7QH8L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FXTest/FXTest-Prefix.pch";
 				INFOPLIST_FILE = "FXTest/FXTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

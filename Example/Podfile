@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'FXTest_Example' do
   pod 'FXTest', :path => '../'
+    pod 'NCKFoundation', :path => '/Users/kaixuanguo/Downloads/NCKFoundation-master-2'
 
   target 'FXTest_Tests' do
     inherit! :search_paths

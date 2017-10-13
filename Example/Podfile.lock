@@ -1,0 +1,44 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FXTest (0.1.0)
+  - NCKFoundation (2.0):
+    - AFNetworking (~> 3.1.0)
+    - NCKFoundation/FXRecognition (= 2.0)
+    - NCKFoundation/NCKSub (= 2.0)
+  - NCKFoundation/FXRecognition (2.0):
+    - AFNetworking (~> 3.1.0)
+  - NCKFoundation/NCKSub (2.0):
+    - AFNetworking (~> 3.1.0)
+
+DEPENDENCIES:
+  - FXTest (from `../`)
+  - NCKFoundation (from `/Users/kaixuanguo/Downloads/NCKFoundation-master-2`)
+
+EXTERNAL SOURCES:
+  FXTest:
+    :path: ../
+  NCKFoundation:
+    :path: /Users/kaixuanguo/Downloads/NCKFoundation-master-2
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FXTest: eeac63c99f17014683cb108fcc51aab6587aa25c
+  NCKFoundation: d9d7a165a23a9f43ed178b5d069a72a65e6f90ca
+
+PODFILE CHECKSUM: f3c515f961936b560cc6d14e7b54c1a16fcc9ad1
+
+COCOAPODS: 1.2.1.beta.1

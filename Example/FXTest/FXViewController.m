@@ -7,6 +7,8 @@
 //
 
 #import "FXViewController.h"
+#import "JPUSHService.h"
+#import "WXApi.h"
 
 @interface FXViewController ()
 
@@ -17,6 +19,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [JPUSHService setupWithOption:@{} appKey:@"" channel:@"" apsForProduction:NO];
+//    [WXApi registerApp:@""];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

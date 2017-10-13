@@ -1,0 +1,38 @@
+{
+  "name": "FXTest",
+  "version": "0.1.0",
+  "summary": "A short description of FXTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/guokaixuan/FXTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "guokaixuan": "alexsguomic@163.com"
+  },
+  "source": {
+    "git": "https://github.com/guokaixuan/FXTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": [
+    "FXTest/header/*.h",
+    "FXTest/*.{h,m}"
+  ],
+  "preserve_paths": "FXTest/lib/*.a",
+  "vendored_libraries": "FXTest/lib/*.a",
+  "frameworks": [
+    "CFNetwork",
+    "CoreFoundation",
+    "CoreTelephony",
+    "SystemConfiguration",
+    "CoreGraphics",
+    "Foundation",
+    "UIKit",
+    "Security"
+  ],
+  "libraries": "z"
+}

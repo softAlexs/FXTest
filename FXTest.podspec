@@ -21,22 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/guokaixuan/FXTest'
+  s.homepage         = 'https://github.com/softAlexs/FXTest.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'guokaixuan' => 'alexsguomic@163.com' }
-  s.source           = { :git => 'https://github.com/guokaixuan/FXTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/softAlexs/FXTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FXTest/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'FXTest' => ['FXTest/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'FXTest/header/*.h'
+  # s.public_header_files = 'FXTest/header/*.h'
+  s.preserve_paths = 'FXTest/lib/*.a'
+  s.vendored_libraries = "FXTest/lib/*.a"
+  # s.xcconfig = { 'OTHER_LDFLAGS' => '-l"jpush-ios-2.1.8"' }
+  s.frameworks = 'CFNetwork', 'CoreFoundation', 'CoreTelephony', 'SystemConfiguration', 'CoreGraphics', 'Foundation', 'UIKit', 'Security'
+  s.libraries = 'z'
 end
